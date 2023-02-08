@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "This is a playground for learning Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ehsan-Home/Tailwind-css-playground.git"
+  },
+  "keywords": [],
+  "author": "Ehsan Ghasaei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ehsan-Home/Tailwind-css-playground/issues"
+  },
+  "homepage": "https://github.com/Ehsan-Home/Tailwind-css-playground#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
